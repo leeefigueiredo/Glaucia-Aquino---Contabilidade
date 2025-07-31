@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,10 +132,23 @@
             padding: 20px 0;
         }
 
-        .sobre-logo{
+        .sobre-logo {
             display: flex;
             width: 100%;
             justify-content: center;
+        }
+
+        .wpp a {
+            position: fixed;
+            bottom: 33px;
+            right: 5px;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            align-items: end;
+            width: 50px;
+            height: 50px;
+
         }
 
         /* Responsividade */
@@ -159,9 +173,9 @@
                 display: block;
             }
 
-            .logo p{
+            .logo p {
                 display: none;
-                
+
             }
         }
     </style>
@@ -170,15 +184,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
         <div class="container navbar">
 
             <div class="logo">
-                <img src="imagens/Logo Glaucia Aquino - Assessoria Contábil (1).png" alt="Logo Contabilidade Moderna" width="100" height="100">
+                <img src="imagens/Logo Glaucia Aquino - Assessoria Contábil (1).png" alt="Logo Contabilidade Moderna"
+                    width="100" height="100">
                 <p>Glaucia Aquino Assessoria Contábil</p>
-           </div>
+            </div>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#servicos">Serviços</a></li>
@@ -201,11 +217,14 @@
 
         <section id="sobre">
             <div class="container">
-               <div class="sobre-logo">
-                <img src="imagens/Logo Glaucia Aquino - Assessoria Contábil (1).png" alt="Imagem de Contabilidade" class="hero-image" width="300" height="300">
-               </div>
+                <div class="sobre-logo">
+                    <img src="imagens/Logo Glaucia Aquino - Assessoria Contábil (1).png" alt="Imagem de Contabilidade"
+                        class="hero-image" width="300" height="300">
+                </div>
                 <h2>Sobre Nós</h2>
-                <p>Somos uma equipe de contadores experientes e dedicados a fornecer as melhores soluções financeiras para nossos clientes. Com anos de experiência no mercado, entendemos as necessidades do seu negócio e oferecemos um serviço personalizado e eficiente.</p>
+                <p>Somos uma equipe de contadores experientes e dedicados a fornecer as melhores soluções financeiras
+                    para nossos clientes. Com anos de experiência no mercado, entendemos as necessidades do seu negócio
+                    e oferecemos um serviço personalizado e eficiente.</p>
             </div>
         </section>
 
@@ -242,6 +261,13 @@
         </section>
     </main>
 
+    <div class="wpp">
+        <a href="https://api.whatsapp.com/send?phone=5511969581212" target="_blank">
+            <img src="imagens/whatsapp.png" alt="WhatsApp" width="50px" height="50px">
+        </a>
+    </div>
+
+
     <footer>
         <div class="container">
             <p>&copy; 2024 Contabilidade Moderna. Todos os direitos reservados.</p>
@@ -257,5 +283,8 @@
         });
     </script>
 
+
+
 </body>
+
 </html>
